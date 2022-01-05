@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Search</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container is-fluid">
+        <div class="notification is-info">
+          <level><div class="level-item has-text-centered"><strong>WEATHER LOOKUP</strong></div></level>
+        </div>
+
+        <div class="notification">
+            <level>
+                <div class="level-item has-text-centered">
+                <label for="city"><strong>City:</strong></label>
+                <input name="city" id="userInput">
+                <button id="submitBtn">Submit</button>
+                </div>
+            </level>
+            <div>
+                <level>
+                    <div class="level-item has-text-centered">
+                    <ul><strong>History:</strong>
+                        <li id="history-1">Chicago</li>
+                        <li id="history-1">Ames</li>
+                        <li id="history-1">St. Paul</li>
+                    </ul>
+                    </div>
+                </level>
+            </div>
+        </div>
+
+        <div class="notification is-info">
+        </div>
+
+        <div class="notification">
+        </div>
+  </section>
+  <script src="./assets/script.js"></script>
+  </body>
+</html>
