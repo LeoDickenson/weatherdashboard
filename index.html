@@ -16,19 +16,21 @@
         <div class="notification">
             <level>
                 <div class="level-item has-text-centered">
-                <label for="city"><strong>City:</strong></label>
+                <form id="resetForm"><label for="city"><strong>City:</strong></label>
                 <input name="city" id="userInput">
-                <button id="submitBtn">Submit</button>
+                <button id="submitBtn">Submit</button></form>
                 </div>
             </level>
+            <br></br>
             <div>
                 <level>
                     <div class="level-item has-text-centered">
-                    <ul><strong>History:</strong>
-                        <li id="history-1">Chicago</li>
-                        <li id="history-1">Ames</li>
-                        <li id="history-1">St. Paul</li>
-                    </ul>
+                      <ul class="menu-list">
+                        <p class="menu-label">Recent History</p>
+                        <li class="history"><a id="hs1"></a></li>
+                        <li><a class="history" id="hs2"></a></li>
+                        <li><a class="history" id="hs3"></a></li>
+                      </ul>
                     </div>
                 </level>
             </div>
