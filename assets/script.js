@@ -20,15 +20,11 @@ function fetchWeather(a) {fetch("https://api.openweathermap.org/data/2.5/weather
         let todayTempVar = 'Temperature: ' + data.main.temp + ' Degrees Kelvin'
         let todayWindVar = 'Wind: ' + data.wind.speed + 'mph'
         let todayHumidVar = 'Humidity: ' + data.main.humidity + '%'
-        
+
         todayTemp.textContent = todayTempVar
         todayWind.textContent = todayWindVar
         todayHumid.textContent = todayHumidVar
 
-        console.log(data)
-        console.log(todayTempVar)
-        console.log(todayWindVar)
-        console.log(todayHumidVar)
     });}
     
     function addHistory() {
